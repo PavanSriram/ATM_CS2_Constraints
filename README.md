@@ -12,6 +12,7 @@ This is a menu driven program.
 
 Handling the input and output is as follows:
 
+Important Note: An external jdbc jar file has to be added to the modules of the program in order to work.
 1. The program checks for a database first. If database is not present then it adds a database named Bank_Acc.db and then checks if there is any information filled inside the database before hand. If not it fills the database with some pre-defined values.
 
 2. Now the admin is prompted to set a password for the ATM and then the total cash inside it.
