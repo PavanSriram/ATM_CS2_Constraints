@@ -21,25 +21,39 @@ Handling the input and output is as follows:
 4. Password is asked while entering to the Admin mode
 
 5. The functionalities of the admin are 
+
 	a. Shutdown the System 
+	
 	b. Add the cash 
+	
 	c. Show the current cash
+	
   d. Add a customer to the database (Takes name, phone number, ifsc code, opening balance of the customer as input. The account number, pin are assigned by the system)
+  
   e. Display all the accounts present in the database. (All the details of the customer are displayed except the PIN number)
+  
 (Note : This program takes a good care of the matching of two account number i.e, does not assign same account number to two different persons)
 
 6. Account number and PIN is asked while entering the customer mode and is checked in the database for a match.
 
 7. The functionalities of the customer are 
+
 	a. view my balance 
+	
 	b. deposit funds 
+	
 	c. withdraw amount : If the withdrawl amount is greater than the cash inside the ATM or the balance of the customer then the process is halted with an error message and continued to the next step.
+	
   d. transfer funds: If the amount is more than the balance of the customer the process is discontinued by showing error message.
   
 8.Then the customer is prompted to logout or continue.
 
 This program has 
+
     1. ATM class to handle all the funtionalities of an ATM
+    
     2. Database class which initialises the database for the first time.
-    3. User class which handles the functionalities of a customer like deposit, withdraw, transfer etc
+    
+    3. User class which handles the functionalities of a customer like deposit, withdraw, transfer etc.
+    
     4. User_Account class which stores the data of the customer for temoparary accessibility.
