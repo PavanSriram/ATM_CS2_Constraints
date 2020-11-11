@@ -2,6 +2,7 @@
 
 INDIVIDUAL CONSTRAINTS:
   1. Store the information of the customer in a file or database and retrieve it.
+  
 3 COMMON CONSTRAINTS:
   1.  Add phone number to get OTP as a two-step verification process for every transaction
   2.  Add methods to change the pin and other basic details of the customer.
